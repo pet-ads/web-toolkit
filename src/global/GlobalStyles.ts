@@ -4,6 +4,8 @@ const GlobalStyles = createGlobalStyle`
   :root{
     --background-color: #131313;
     --primary-text-color: #FFFFFF;
+    --secundary-text-color: #000000;
+    --primary-color: #1A800A;
   }
 
  * {
@@ -25,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     height: 100vh;
   }
 
-  
+
 `;
 
 export default GlobalStyles;
