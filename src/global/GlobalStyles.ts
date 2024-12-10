@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   :root{
-    --background-color: #131313;
+    --background-color: #F4F3EF;
     --primary-text-color: #FFFFFF;
     --secundary-text-color: #000000;
     --primary-color: #1A800A;
@@ -16,6 +16,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 

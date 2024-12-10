@@ -1,9 +1,10 @@
-import LinkButton from "./components/LinkButton"
+import Text from "./components/Text"
 
 function App() {
 
-  return (
-    <LinkButton link="https://gitmoji.dev">Veja mais</LinkButton>
+  return (<>
+    <Text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, similique vel. Quaerat nihil temporibus eligendi eaque molestias, ex laudantium accusamus cumque harum aperiam ipsa voluptatum dolores blanditiis, nemo debitis error. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto odio facere repudiandae reprehenderit optio accusamus deserunt sit ipsa temporibus? Architecto corporis explicabo fuga sapiente fugit, illo animi unde rerum autem.</Text>
+  </>
   )
 }
 
