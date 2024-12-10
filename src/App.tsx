@@ -1,8 +1,9 @@
+import LinkButton from "./components/LinkButton"
 
 function App() {
 
   return (
-    <div>teste</div>
+    <LinkButton link="https://gitmoji.dev">Veja mais</LinkButton>
   )
 }
 
