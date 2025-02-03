@@ -4,11 +4,11 @@ export const TextContainer = styled.div`
     display: flex;
     box-sizing: border-box;
 
-    min-width: 80vw;
-    max-width: 80vw;
+    min-width: 90%;
+    max-width: 90%;
 
-    min-width: 80vw;
-    max-width: 80vw;
+    min-height: 90%;
+    max-height: 90%;
 
     padding: 2rem 0;
 
