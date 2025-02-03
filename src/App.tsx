@@ -1,11 +1,22 @@
-import Text from "./components/Text"
+// Components
+import { Text,RedirectButton } from "./dto";
 
 function App() {
-
-  return (<>
-    <Text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, similique vel. Quaerat nihil temporibus eligendi eaque molestias, ex laudantium accusamus cumque harum aperiam ipsa voluptatum dolores blanditiis, nemo debitis error. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto odio facere repudiandae reprehenderit optio accusamus deserunt sit ipsa temporibus? Architecto corporis explicabo fuga sapiente fugit, illo animi unde rerum autem.</Text>
-  </>
-  )
+  return (
+    <>
+      <Text
+        children={
+          "A Wecomp é a semana da computação do IFSP São Carlos, que neste ano sua edição. O objetivo do evento é proporcionar uma maior interação entre os estudantes, o mercado de tecnologia e a cidade de São Carlos. Ao longo de cinco dias de evento, serão realizados diversos minicursos, talks e processos seletivos, que visam reduzir a distância entre a teoria e a prática, ensinar tecnologias novas e promover o ingresso dos participantes no mercado de trabalho."
+        }
+      />
+      <RedirectButton
+        link={
+          "https://github.com/pet-ads/wecomp-new/blob/main/src/components/sections/Supporters/index.tsx"
+        }
+        children={"Lorem"}
+      />
+    </>
+  );
 }
 
-export default App
+export default App;
