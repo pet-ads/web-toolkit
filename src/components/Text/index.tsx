@@ -3,6 +3,6 @@ import { TextContainer } from "./styles"
 
 export default function Text({children}: TextContainerProps){
   return (
-      <TextContainer>{children}</TextContainer>
+      <TextContainer as={"span"}>{children}</TextContainer>
   )
 }
